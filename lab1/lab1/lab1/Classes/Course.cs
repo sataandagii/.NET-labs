@@ -12,5 +12,10 @@ namespace lab1.Classes
         public string Name { get; set; }
         public Test Test { get; set; }
         public List<User> Students { get; set; }
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }
