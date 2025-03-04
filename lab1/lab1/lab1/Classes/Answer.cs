@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace lab1.Classes
 {
-    public class Question
+    public class Answer
     {
         public string Text { get; set; }
-        public List<Answer> Answers { get; set; }
+        public bool IsCorrect { get; set; }
     }
 }

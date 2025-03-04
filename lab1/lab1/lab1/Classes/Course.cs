@@ -9,13 +9,9 @@ namespace lab1.Classes
 {
     public class Course
     {
-        public string Name { get; set; }
-        public Test Test { get; set; }
-        public List<User> Students { get; set; }
+        public string Title { get; set; }
+        public List<Test> Tests { get; set; }//список тестів курсу
+        public DateTime CreatedDate { get; set; }//дата створення курсу
 
-        public override string ToString()
-        {
-            return Name;
-        }
     }
 }

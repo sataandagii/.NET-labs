@@ -8,8 +8,8 @@ namespace lab1.Classes
 {
     public class Test
     {
-        public string Name { get; set; }
-        public List<Question> Questions { get; set; }
-        public double PassingGrade { get; set; }
+        public Course Course { get; set; }//курс до якого належить тест
+        public List<Question> Questions { get; set; }//список завдань
+        public bool isFinalTest { get; set; }//чи є фінальним
     }
 }
